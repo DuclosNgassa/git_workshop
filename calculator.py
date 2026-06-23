@@ -1,2 +1,15 @@
-def add(a, b):
-    return a + b
+from os.path import defpath
+##Florian minus
+##daniela multiply
+##amel modulo
+##binu division
+
+def calculate(text_input):
+    if text_input[1] == "+":
+        return int(text_input[0]) + int(text_input[-1])
+
+
+calculation = input("What do you want to calculate?")
+answer = calculate(calculation)
+print(f"The result is {answer}")
+
